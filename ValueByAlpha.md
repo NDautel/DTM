@@ -44,6 +44,7 @@ scale_linear(
 
 ### N: Proportional zu der Anzahl der gültigen Stimmen
 Anzahl der Gültigen Stimmen "G" durch Fläche dividieren: 
+```
 set_color_part(
 'black',
 'alpha',
@@ -52,9 +53,10 @@ scale_linear(
 100000, 200000,
 230,0)
  )
- 
+ ```
  
 ### N2: Für einen weißen Filter:
+```
 set_color_part(
 'white',
 'alpha',
@@ -64,3 +66,4 @@ scale_linear(
 200, 0
 )
 )
+```
