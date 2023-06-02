@@ -30,3 +30,16 @@ https://lms.bht-berlin.de/pluginfile.php/1957619/course/section/465894/bivariate
 
 
 Unten links schwache Farben etc. 
+
+
+
+
+___
+
+Arbeitsaufgabe 8 nacharbeiten: 
+Geo Vis: Alpha map  Alphawerte anpassen
+Abstufungen in Legende darstellen und erklären was das ist
+Konturlinien anpassen —> Dünner und evtl. hellgrau
+
+
+—> Vielleicht als Gitterchoropletenkarte?
