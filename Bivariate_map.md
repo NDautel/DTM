@@ -26,7 +26,10 @@ rechtsklick layer --> "Filter" -> Einfügen der Regel
 
 <img width="669" alt="image" src="https://github.com/NDautel/DTM/assets/84902755/ad58f5e5-0224-4070-944f-1a7a652e8f00">
 
-10. Im Fieldcalculator neues Feld in Kopie "GDP" folgendes anlegen -> rechtklick layer -> "Open Attribute table" -> "Field calculator" -> check "Neues Feld anlegen" 
+10. Um einen Farbverlauf wie oben in der ersten Abbildung dargestellt zu erreichen, müssen wir unsere Daten mit den Markern A,B,C für den Freedom index und 1,2,3 für das "GDP" --> 
+![Tabelle_Auslesen_der_Hexwerte](https://github.com/NDautel/DTM/assets/84902755/8b22cadc-0ee4-4686-b6c2-ceadc9ca1a88)
+
+Im Fieldcalculator neues Feld in Kopie "GDP" folgendes anlegen -> rechtklick layer -> "Open Attribute table" -> "Field calculator" -> check "Neues Feld anlegen" 
  ```
 CASE 
 WHEN  "Logged GDP" > 10.2 THEN 3
@@ -55,11 +58,7 @@ WHEN "Freedom to" > 0.76 THEN B
 ELSE A
 END
 ```
-11.
-
-
-
-Hexwerte mit dem Colorpicker tool auslesen und dann im folgenden Schema nach eintragen:
+11. Hexwerte mit dem Colorpicker tool auslesen und dann im folgenden Schema nach eintragen:
 
 ![Tabelle_Auslesen_der_Hexwerte](https://github.com/NDautel/DTM/assets/84902755/8b22cadc-0ee4-4686-b6c2-ceadc9ca1a88)
 
