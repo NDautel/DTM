@@ -5,7 +5,7 @@
 
 Die zwei Vergleichskarten in GIS aufbereiten: 
 1. <br>
-Global Happiness Index Tabelle laden entweder vom [Global Happiness Report](https://happiness-report.s3.amazonaws.com/2023/DataForFigure2.1WHR2023.xls) <br>
+Global Happiness Index Tabelle laden entweder von der [Global Happiness Seite](https://worldhappiness.report/ed/2023/#appendices-and-data) [Global Happiness Report Excel](https://happiness-report.s3.amazonaws.com/2023/DataForFigure2.1WHR2023.xls) <br>
 ODER <br>
 [Keggle](https://www.kaggle.com/datasets/unsdsn/world-happiness)  <br>
 ODER  <br>
