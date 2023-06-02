@@ -26,4 +26,7 @@ Hexwerte mit dem Colorpicker tool auslesen und dann im folgenden Schema nach ein
 
 https://lms.bht-berlin.de/pluginfile.php/1957619/course/section/465894/bivariate_samples.png
 
+![bivariate_samples](https://github.com/NDautel/DTM/assets/84902755/ad69e3a5-b11f-4a10-9eb8-599f7b6d095d)
+
+
 Unten links schwache Farben etc. 
