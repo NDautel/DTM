@@ -58,7 +58,9 @@ WHEN "Freedom to" > 0.76 THEN B
 ELSE A
 END
 ```
-11. Hexwerte mit dem Colorpicker tool auslesen und dann im folgenden Schema nach eintragen:
+11. Hexwerte mit dem Colorpicker tool auslesen und dann im folgenden Schema nach eintragen: <br>
+<img width="289" alt="image" src="https://github.com/NDautel/DTM/assets/84902755/edec47aa-a739-4a66-bb86-a34bea58532a">
+
 
 ![Tabelle_Auslesen_der_Hexwerte](https://github.com/NDautel/DTM/assets/84902755/8b22cadc-0ee4-4686-b6c2-ceadc9ca1a88)
 
@@ -66,11 +68,7 @@ https://lms.bht-berlin.de/pluginfile.php/1957619/course/section/465894/bivariate
 
 ![bivariate_samples](https://github.com/NDautel/DTM/assets/84902755/ad69e3a5-b11f-4a10-9eb8-599f7b6d095d)
 
-
 Unten links schwache Farben etc. 
-
-
-
 
 ___
 
