@@ -110,3 +110,13 @@ Then 'B'
 ELSE 'A'
 END
  ```
+
+Go to field calculator ->  Füge zwei Strings zueinander, Integers werden zu Strings (Befehl concatenate "concat")  ->
+
+ODER 
+ ```
+ "jj_Sexr_cl"  ||   "inc_class" 
+ ```
+
+
+![image](https://github.com/NDautel/DTM/assets/84902755/1779c219-85c7-4f32-bbd7-e213ab21cb95)
