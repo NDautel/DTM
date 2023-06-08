@@ -79,3 +79,34 @@ Konturlinien anpassen —> Dünner und evtl. hellgrau
 
 
 —> Vielleicht als Gitterchoropletenkarte?
+
+
+__
+
+Für Aufgabe 9:
+
+Integer Feld anlegen für Klassifizierung von Sexratio mit 1-4 (1 niedrig- 4 hoch) 
+ ```
+CASE 
+WHEN   "J_sexratio"  > 111
+THEN 4
+WHEN  "J_sexratio" > 107 
+THEN 3
+WHEN  "J_sexratio" > 105 
+Then 2
+ELSE 1
+END
+ ```
+
+Textfeld anlegen für Prokopfeinkommen mit A-D (A niedrig - D hoch)
+ ```
+CASE 
+WHEN    "JI_inc_PP_"   > 23938
+THEN 'D'
+WHEN  "JI_inc_PP_" > 22373 
+THEN 'C'
+WHEN  "JI_inc_PP_" > 20531 
+Then 'B'
+ELSE 'A'
+END
+ ```
