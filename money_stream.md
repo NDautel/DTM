@@ -50,11 +50,16 @@ Das Gleiche noch einmal für y_dest.
 3. "Shape tools" Plug-in installieren: 
 ![image](https://github.com/NDautel/DTM/assets/84902755/4d096e8f-fa9a-4210-b308-5bc55a61f6de)
 
-4. 
+4. Verbindung erzeugen zwischen Original country (Germany -> x/y_origin) und den Empfängerländern (x/y_dest)
 
 Orthogonale Projektion für Deutschland:
 
-+proj=ortho +lat_0=49.1 +lon_0=10,288 + x_0 = 0 +y_0=0 +a=6370100 +b=6370100 +units=m +no_defs 
++proj=ortho +lat_0=51.134 +lon_0=10.288 + x_0 = 0 +y_0=0 +a=6370100 +b=6370100 +units=m +no_defs 
 
-(lon_0 = x_koordinate Deutschland
+Erklärung Bestandteile der Projektion:
+lon_0 = x_koordinate Deutschland
 lat_0 = y_Koordinate Deutschland
++a    = Elipsoid Umfang (definieren)
++b    = Elipsoid Umfang (definieren)
+--> Für perfekte Kugel gleiche Zahl
+units = Meter etc.
