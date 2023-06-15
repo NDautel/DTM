@@ -40,10 +40,17 @@ Schritte in QGIS:
 
 1. Zentroide für alle Länder erstellen
 2. Im Zentroide layer: Im Feldrechner dann jedem Land seine Koordinate zuweisen --> Neues Feld erzugen z.B. x_dest --> Command: 
-'''
+ ```
 $x
-'''
-f
+ ```
+--> Weist dann die Längengerade dem jeweiligen Punkt zu. 
+Das Gleiche noch einmal für y_dest.
+![image](https://github.com/NDautel/DTM/assets/84902755/f6db3fc6-20b7-4284-a5d9-e763a401d847)
+
+3. "Shape tools" Plug-in installieren: 
+![image](https://github.com/NDautel/DTM/assets/84902755/4d096e8f-fa9a-4210-b308-5bc55a61f6de)
+
+4. 
 
 Orthogonale Projektion für Deutschland:
 
