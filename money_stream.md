@@ -50,7 +50,8 @@ Das Gleiche noch einmal für y_dest.
 3. "Shape tools" Plug-in installieren: 
 ![image](https://github.com/NDautel/DTM/assets/84902755/4d096e8f-fa9a-4210-b308-5bc55a61f6de)
 
-4. Verbindung erzeugen zwischen Original country (Germany -> x/y_origin) und den Empfängerländern (x/y_dest)
+4. Einzelpunkt-layer nur für Deutschland erzeugen (Für später, damit man ein Polygon darum "buffern"/zeichnen kann--> Schritt 6.
+5. Verbindung erzeugen zwischen Original country (Germany -> x/y_origin) und den Empfängerländern (x/y_dest)
 
 Orthogonale Projektion für Deutschland:
 
@@ -63,3 +64,17 @@ lat_0 = y_Koordinate Deutschland
 +b    = Elipsoid Umfang (definieren)
 --> Für perfekte Kugel gleiche Zahl
 units = Meter etc.
+
+6.![image](https://github.com/NDautel/DTM/assets/84902755/548cc102-9941-470f-8c48-47813c40e8f5)
+!!! Nicht vergessen Projektion für den Punkt auch auf die Orthogonale ändern (Da default Einheiten degrees sind, wir aber Meter haben wollen) 
+
+7. 
+
+
+
+Fragen: 
+
+Koordindaten y_origin ändert sich, wenn ich x_Origin anlege und statt Komma dann ein Punkt und eine Dezimalzahl weniger, warum?
+
+![image](https://github.com/NDautel/DTM/assets/84902755/aaa097f2-02f7-4f96-b73c-ae4a0b013e88)
+
