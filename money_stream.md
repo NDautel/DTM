@@ -50,7 +50,7 @@ Das Gleiche noch einmal für y_dest.
 3. "Shape tools" Plug-in installieren: 
 ![image](https://github.com/NDautel/DTM/assets/84902755/4d096e8f-fa9a-4210-b308-5bc55a61f6de)
 
-4. Einzelpunkt-layer nur für Deutschland erzeugen (Für später, damit man ein Polygon darum "buffern"/zeichnen kann--> Schritt 6.
+4. Einzelpunkt-layer nur für Deutschland erzeugen (Für später, damit man ein Polygon darum "buffern"/zeichnen kann--> Schritt 7.
 5. Verbindung erzeugen zwischen Original country (Germany -> x/y_origin) und den Empfängerländern (x/y_dest)
 
 Orthogonale Projektion für Deutschland:
@@ -68,7 +68,9 @@ units = Meter etc.
 6.![image](https://github.com/NDautel/DTM/assets/84902755/548cc102-9941-470f-8c48-47813c40e8f5)
 !!! Nicht vergessen Projektion für den Punkt auch auf die Orthogonale ändern (Da default Einheiten degrees sind, wir aber Meter haben wollen) 
 
-7. 
+7. Buffer um den Punkt erzeigen für Kugelerscheinung
+   buffer(make_point(0,0),6350000, 20)
+8. 
 
 
 
