@@ -41,7 +41,7 @@ https://rechneronline.de/pi/sechseck.php
 
 HIER MUSS DIE PROJEKTION UMGESTELLT WERDEN,z.B. auf EPSG:24500 - Kertau 1968 / Singapore Grid - Projected, da ansonsten die Maßeinheit degree und nicht Meter ist!
 
-8. Im Grid Layer: Nach Position selektieren
+8.* Im Grid Layer: Nach Position selektieren
    Zentroide für jeden room-layer bilden d.h. entire_apart, private, shared, hotel:
    ![image](https://github.com/NDautel/DTM/assets/84902755/b4c202b3-2a57-466e-a144-0cf63e634109)
    
@@ -56,9 +56,16 @@ Dann nach Position selektieren als Eingabe Grid und dann jeweils die Zentroide d
 "Selected Features" jeweils für entire, private, shared, hotel in einen gesonderten Layer exportieren
 ![image](https://github.com/NDautel/DTM/assets/84902755/e2aa0ddf-45c0-4fb9-bb29-3afbcb212142)
 
+10.
+Wir wollen jetzt jeweils für jedes Grid Element statistische Maßzahlen, speziell den Durchschnitt definieren. 
+ 
+Dafür in der Processing Toolbox "Join attributes by location"/"Attribute nach Position verknüpfen"
+![image](https://github.com/NDautel/DTM/assets/84902755/ee429a83-106b-4664-a647-ee3c5c150db3)
+![image](https://github.com/NDautel/DTM/assets/84902755/e653266e-e2bd-4f2e-a29e-511ed5e9e454)
+![image](https://github.com/NDautel/DTM/assets/84902755/e1ceb6bc-0740-47da-b8a2-00e6002d7f0d)
 
+*Mann kann auch den Schritt 8:) weglassen und direkt aus dem Grid auswählen?
 
-10. 
 11. 
 
 
