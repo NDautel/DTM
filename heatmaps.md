@@ -26,6 +26,17 @@ D.h. Zahlen in der Kategorie Preis, die willkürlich oder unrealistisch sind aus
    -Hotel room
    ![image](https://github.com/NDautel/DTM/assets/84902755/11fcadf3-3b3c-437a-8921-f50cd9e1c368)
 
-6.  
+6.  Grid erzeugen:
+Unter Researchtools/Forschungswerkzeuge --> Create Grid --> Hexagon/Sechseck auswählen. 
+Gitterausdehnung auf Karte festlegen (siehe screenshot) oder Freihändig
+Die Seitenlänge des Sechsecks soll 250m betragen (da Singapore recht klein ist) daher muss bei der Horizontal bzw. Vertical spacing folgender Wert eingetragen werden: 433,0130
+![image](https://github.com/NDautel/DTM/assets/84902755/c8bf28a2-8e39-4fc4-9e7a-db737909e661)
+
+Diese Zahl ergibt sich aus der unten angegeben Berechnung da es sich hierbei um die kurze Diagonale (d2) eines Sechsecks handelt:
+
+https://rechneronline.de/pi/sechseck.php
+<img width="660" alt="image" src="https://github.com/NDautel/DTM/assets/84902755/68458c59-72af-45b0-9dc3-d77034560065">
+
+8.  
    
 
