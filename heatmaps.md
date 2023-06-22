@@ -66,7 +66,22 @@ Dafür in der Processing Toolbox "Join attributes by location"/"Attribute nach P
 
 *Mann kann auch den Schritt 8:) weglassen und direkt aus dem Grid auswählen?
 
-11. 
+11. Für die Zentroide eine Heatmap erstellen:
+    ![image](https://github.com/NDautel/DTM/assets/84902755/35d8dded-8d29-48a9-b94c-8d5ee2091ef4)
+    Und eine neue Verblendung erstellen
+
+    Copy und paste den Stil der Symbologie auf die anderen drei Beispiele.
+   ![image](https://github.com/NDautel/DTM/assets/84902755/edf8f58d-0190-4ecd-8eab-458e792568a1)
+
+14. Karte "Neighborhoods" auflösen/dissolved, so dass man nur noch die Umradung hat, ohne die einzelnen Nachbarschaften/Bezirke
+    (Manchmal muss man die Geometrien vorher reparieren, weil sonst nur ein Teil aufgelöst wird. Hierfür das Tool aus der Processiong toolbox "Fix geometries" auswählen und, wie in diesem Fall hier, auf den Layer "Neighborhoods" anwenden.
+
+   ![image](https://github.com/NDautel/DTM/assets/84902755/c55b4a1e-9ffb-4a4b-8d6d-6c65da08da46)
+
+15. 
+
+
+
 
 
 
