@@ -9,18 +9,23 @@ listings.csv
 neighbourhoods.geojson --> Ersetzt Shapefile (Shapefile-Type eigentlich veraltet)
 
 2.
-Einfügen von der CSV-Datei Listings --> Da Punktkoordinaten muss man hier die Projektion nicht anpassen, sondern lediglich festlegen, dass x der Variable "longitude" und y der Variable "latitude" im File Listings entspricht.
+Einfügen von der CSV-Datei Listings --> Da Punktkoordinaten festlegen, dass x der Variable "longitude" und y der Variable "latitude" im File Listings entspricht. Verwendete Projektion ist: EPSG:24500 - Kertau 1968 / Singapore Grid - Projected (Ansonsten Projektion mit den Units "degree" wir wollen aber Meter.
 ![image](https://github.com/NDautel/DTM/assets/84902755/8867ce48-8a96-4c77-93c6-b750c7a6adde)
+![image](https://github.com/NDautel/DTM/assets/84902755/40c9f61b-a126-4b6a-9179-2f470b6d4b2a)
 
-3. Daten bereinigen. D.h. Zahlen in der Kategorie Preis, die willkürlich oder unrealistisch sind ausschließen. Hier wurden keine Daten ausgeschlossen. Allerdings gibt es komische Zahlen/Kategorien in der Kategorie Typ der Unterkunft (room_type). Diese werden aber im folgenden Schritt so oder so ausgefiltert.
 
-4. Layer vier Mal duplizieren und folgend umbenennen sowie jeweils auch filtern, siehe screenshot: 
+Hier gibt es einige ungültige Punkte, da Angaben zu Latitude und/oder Longitude fehlen. Diese Punkte werden aber nicht projeziert, müssen also nicht explizit gelöscht werden. 
+
+3. Daten bereinigen:
+D.h. Zahlen in der Kategorie Preis, die willkürlich oder unrealistisch sind ausschließen. Hier wurden keine Daten ausgeschlossen. Allerdings gibt es unplausieble Zahlen/Kategorien in der Kategorie Typ der Unterkunft (room_type). Diese werden aber im folgenden Schritt so oder so ausgefiltert.
+
+5. Layer vier Mal duplizieren und folgend umbenennen sowie jeweils auch filtern, siehe screenshot: 
    -Entire Apartment
    -Private room
    -Shared room
    -Hotel room
    ![image](https://github.com/NDautel/DTM/assets/84902755/11fcadf3-3b3c-437a-8921-f50cd9e1c368)
 
-5.  
+6.  
    
 
