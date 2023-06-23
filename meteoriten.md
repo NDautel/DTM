@@ -29,3 +29,18 @@ Temporären Layer erstellen, Punktgeometrie (Name Legende) bei Großbritanien se
 Dann neben "Wert" in der Legendenansicht (labels) auf das Epsilon klicken und folgendes eintragen:
 'Sternschnuppen'   || '\n'  ||   format_date(  @map_start_time, 'dd MMMM yyyy') 
 --> Das N ist für einen Absatz die zwei Striche zum Verketten der Strings
+
+
+Auf bei dem Layer "legende" zeitlich aktivieren und auf "Nur Layer neuzeichnen" setzen.
+
+Man kann den Titel auch über Ansicht--> Dekoration --> "Titelbeschriftung" dann kann man den Text "Sternschnuppen" auch dort dynamisch anlegen (wir haben das jetzt über eine Punktgeometrie gelöst. 
+--> Hier kann man auch einen Uhrheber festlegen. Uhrheber ist defaultmäßig der Name des Computers.
+
+Ab 1:28 wieder normal
+
+
+
+Ab ca 1.45 Das Ganze noch einmal mit der CSV Statt KML Datei 
+
+In der CSV Dateien sind es Punkte statt Linien, daher müssen aus den Punkten ersteinmal erst Linien generiert werden. Dafür in den Layer unter Symbology Geometrigenerator auswählen, auf Linien stellen und dann beim Epsilon folgendes eintragen: 
+make_line( $geometry , make_point("LonEnd", "LatEnd"))
