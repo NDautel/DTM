@@ -24,3 +24,7 @@ Animation speichern über das Disketensymbol
 
 In Einstellungen --> Zeitlich --> "Objekte über Zeit sammeln"
 Objekte über Zeit Sammeln wenn es z.B. eine route ist.
+
+Temporären Layer erstellen, Punktgeometrie (Name Legende) bei Großbritanien setzen und dann Label als Einzelsymbol hinzufügen (Bei Layer legende)
+Dann neben "Wert" in der Legendenansicht (labels) auf das Epsilon klicken und folgendes eintragen:
+'Sternschnuppen'  ||   format_date(  @map_start_time, 'dd MMMM yyyy') 
